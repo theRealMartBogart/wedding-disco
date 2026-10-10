@@ -1,0 +1,8 @@
+# Build outputs
+build/
+build-tests/
+__pycache__/
+*.pyc
+
+# Unused 6 MB CMSIS pack in vendored LVGL
+third_party/lvgl/env_support/cmsis-pack/*.pack
